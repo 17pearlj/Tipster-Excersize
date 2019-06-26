@@ -17,9 +17,7 @@ The following **optional** features are implemented:
 * [ ] Settings page to change the default tip percentage (not fully implemented).
 
 
-The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
@@ -31,7 +29,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I did not finish the bonus of settings that I set out to finish. I am pretty sure that I know how to have continued to go about that problem.
 
 ## Credits
 
@@ -41,7 +39,7 @@ List an 3rd party libraries, icons, graphics, or other assets you used in your a
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2019] [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
