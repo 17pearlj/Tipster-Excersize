@@ -15,6 +15,7 @@
 		FFD626C522C2CD4C00054E07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD626C422C2CD4C00054E07 /* main.m */; };
 		FFD626CF22C2CD4C00054E07 /* tipsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD626CE22C2CD4C00054E07 /* tipsterTests.m */; };
 		FFD626DA22C2CD4C00054E07 /* tipsterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD626D922C2CD4C00054E07 /* tipsterUITests.m */; };
+		FFD626F522C2F41700054E07 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD626F422C2F41700054E07 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FFD626D522C2CD4C00054E07 /* tipsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD626D922C2CD4C00054E07 /* tipsterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipsterUITests.m; sourceTree = "<group>"; };
 		FFD626DB22C2CD4C00054E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD626F322C2F41700054E07 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
+		FFD626F422C2F41700054E07 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				FFD626B522C2CD4C00054E07 /* AppDelegate.h */,
 				FFD626B622C2CD4C00054E07 /* AppDelegate.m */,
+				FFD626F322C2F41700054E07 /* SettingsViewController.h */,
+				FFD626F422C2F41700054E07 /* SettingsViewController.m */,
 				FFD626B822C2CD4C00054E07 /* ViewController.h */,
 				FFD626B922C2CD4C00054E07 /* ViewController.m */,
 				FFD626BB22C2CD4C00054E07 /* Main.storyboard */,
@@ -265,6 +270,7 @@
 				FFD626BA22C2CD4C00054E07 /* ViewController.m in Sources */,
 				FFD626C522C2CD4C00054E07 /* main.m in Sources */,
 				FFD626B722C2CD4C00054E07 /* AppDelegate.m in Sources */,
+				FFD626F522C2F41700054E07 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

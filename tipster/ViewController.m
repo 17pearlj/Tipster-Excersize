@@ -18,12 +18,20 @@
 
 @implementation ViewController
 
+//
+//NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+//double doubleValue = [defaults doubleForKey:@"default_tip_percentage"];
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"Tip Calculator";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    double doubleValue = [defaults doubleForKey:@"default_tip_percentage"];
+    self.tipPercent.selectedSegmentIndex = (int)doubleValue;
+    NSLog(@"selected int: %i", self.tipPercent.selectedSegmentIndex);
     // Do any additional setup after loading the view.
 }
 - (IBAction)onTap:(id)sender {
-    NSLog(@"Hello");
     [self.view endEditing:(YES)];
     // dismisses keyboard fun call
 }
